@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navbar */
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+.navbar{
+	background-color: #005BA4;
+	color: #fff !important;
+}
+.nav-item {
+	padding-left: 10px;
+}
+.navbar-brand{
+	color: #fff !important;
+	padding-left: 10px;
+}
+#navbar button{
+	color: #fff !important;
+}
+
+/* Learning Index */
+.hlearn{
+	width: 100%;
+	background-color: #005BA4;
+	margin: auto;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+.about {
+    width: 100%;
+}
+
+.about .content {
+    text-align: left;
+}
+
+.about .content h2 {
+    font-weight: 550;
+	text-align: justify;
+    color: white;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.about .content p {
+    color: white;
+    font-size: 24px;
+    font-weight: 350;
+	text-align: justify;
+	margin-left: 10px;
+	
+}
+.dropdown-menu li {
+	position: relative;
+	}
+	.dropdown-menu .dropdown-submenu {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: -20px;
+	}
+	.dropdown-menu .dropdown-submenu-left {
+	left: 100%;
+	left: auto;
+	}
+	.dropdown-menu > li:hover > .dropdown-submenu {
+	display: block;
+	}
+
+@media only screen and (max-width:960px)
+{
+	.navbar-brand{
+		padding-left:0;
+	}
+}
+@media only screen and (max-width:760px)
+{
+	#banner-row img{
+		padding-top:20px;
+	}
+	.social-col{
+		width: 33%;
+	}
+}

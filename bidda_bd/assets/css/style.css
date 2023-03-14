@@ -1,0 +1,2707 @@
+/* ==========================================================================
+    Template Name: Biddabd bootstrap 5 Template
+    Template URI: https://Biddabd.com/global/
+    Description: Biddabd bootstrap 5 Template
+    Author: Tanjina
+    Author URI: http://www.tanjina.ml.com
+    Version: 1.0
+  ========================================================================== */
+
+/* CSS Index 
+-----------------------------------
+1. Template default css
+2. Header slider css
+3. Header css
+4. Home css
+5. Trust-learn css
+6. Learning css
+7. Available-platform css
+8. Play-learning css
+9. Engaging-learn css
+10. Students-counting css
+11. Education css
+12. Investors css
+13. Biddabd-news css 
+14. Brands-bar css
+15. Footer css
+*/
+
+/* ==========================================================================
+   Google Font
+   ========================================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Proxima%20Soft:wght@400;500;600;700&amp;family=Proximanova:wght@400;500;600;700&amp;display=swap');
+
+   /*...................................
+      1. Template default css
+      ................................... */
+
+      
+   
+      html {
+        overflow-x: hidden;
+      
+      }
+         
+      body {
+        font-family: 'Proximanova', sans-serif;
+        overflow-x: hidden;
+        font-size: 16px;
+      }
+      
+      a,
+      .button {
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s;
+      }
+      
+      a:focus,
+      .btn:focus {
+        text-decoration: none;
+        outline: none;
+        box-shadow: none;
+      }
+      
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+         font-family: 'ProximaSoft', sans-serif !important;
+        font-weight: 700;
+        color: #181824;
+      }
+      
+      p {
+         font-family: 'ProximaSoft', sans-serif !important;
+        font-size: 14px;
+        line-height: 32px;
+        color: #566977;
+      }
+      
+      ul {
+        list-style: outside none none;
+      }
+      
+      li {
+        list-style: none;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      a {
+        color: inherit;
+      }
+      
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      .form-control:focus {
+        outline: 0;
+        box-shadow:none;
+      }
+      
+      /*------ 1. default-css ------*/
+      .section-padding-top{
+        padding-top: 80px;
+      }
+      .section-padding-bottom{
+        padding-bottom: 50px;
+      }.section-padding{
+        padding: 0 100px;
+      }
+       
+      /* ==========================================================================
+         Author's custom styles
+         ========================================================================== */
+      
+      /*...................................
+         2. Header-slider css
+         ................................... */
+        
+   
+        /* .summer-banner-content-hidden {
+         display: none;
+       }
+        .hidden-content {
+         display: flex;
+         justify-content: center;
+       } */
+        /*...................................
+         3. Header css
+         ................................... */
+          header {
+          position: fixed;
+          top: 0;
+            width: 100%;
+          z-index: 9999999;
+          transition: all 0.4s ease-in-out;
+            -moz-transition: all 0.4s ease-in-out;
+            -webkit-transition: all 0.4s ease-in-out;
+            -o-transition: all 0.4s ease-in-out;
+        }
+        .header-fixed .top-bar{
+          display: none;
+          
+        }
+        .top-info{
+          display: block;
+        }
+        .fixed-header {
+          opacity: 0.95;
+          box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+          -o-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+            -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+        }  
+        /*search box */
+        form.example input[type=text] {
+          padding: 10px;
+          font-size: 17px;
+          border: 1px solid grey;
+          float: left;
+          width: 80%;
+          background: #f1f1f1;
+        }
+        /*gellary*/
+        :root {
+          --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+        }
+        
+        
+        
+        .card {
+          background: #222;
+          border: 1px solid #dd2476;
+          color: rgba(250, 250, 250, 0.8);
+          margin-bottom: 2rem;
+        }
+        
+       
+        
+        /*gellary end*/
+
+        form.example button {
+          float: left;
+          width: 20%;
+          padding: 10px;
+          background: #2196F3;
+          color: white;
+          font-size: 17px;
+          border: 1.5px solid rgb(192, 190, 190);
+          border-left: none;
+          cursor: pointer;
+        }
+        
+        form.example button:hover {
+          background: #0b7dda;
+          
+        }
+        
+        form.example::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+      /*search box end */
+
+         .header {
+          background: #005BA4;
+          padding: 11px 0;
+          /* height: 120px; */
+        }
+        a#navbarDropdown {
+          color: rgb(19, 18, 18);
+          background: #024173;
+          border: 1px solid #005BA4;
+          border-radius: 5px;
+          padding: 6px 29px;
+        }
+        
+        ul.navbar-nav.main-menu {
+          position: relative;
+        }
+        .triangle {
+          width: 18px;
+          height: 18px;
+          background: rgb(15, 15, 15);
+          transform: rotate(45deg);
+          position: absolute;
+          left: 22%;
+          top: 183%;
+          display: none;
+        }
+        .hover-dropdown{
+          transition: all linear .10s;
+        }
+        .hover-dropdown-menu{
+          display: none;
+          position: absolute;
+          background-color: #141212;
+          box-shadow:2px 8px 16px 0px
+          rgba(0,0,0,0.2);
+          z-index: 1;
+          height: 528px;
+          padding: 11px 0px 0 10px;
+          border-radius: 0px;
+          margin-top: 43%;
+          left: -290%;
+          transition: all linear .10s;
+        }
+        ul.hover-dropdown-menu li {
+          width: 219px !important;
+        }
+        ul.hover-dropdown-menu li a {
+          display: block;
+        }
+        ul.hover-dropdown-menu a img {
+          width: 37px !important;
+          margin: 5px;
+        }
+
+        ul.hover-dropdown-menu li a span {
+          font-size: 12px;
+        }
+        ul.sub-dropdown-menu li a {
+          margin: 10px 0 0 0;
+          width: 217px;
+        }
+        ul.sub-dropdown-menu1 li a {
+          margin: 10px 0 0 0;
+          width: 218px;
+        }
+        .menu-title span{
+          color: #6A6A86;
+          margin: 5px;
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: 600;
+        }
+        ul.subject-dropdown-menu {
+          margin-top: 29px;
+        }
+           
+        #sub-dropdown-menu1{
+          display: none;
+          position: absolute;
+          background-color: #f3f3f6;
+          margin-left: 100%;
+          margin-top: -90px;
+          height: 526px;
+        }
+        #sub-dropdown-menu2{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: #fff;
+          margin-left: 218px;
+          margin-top: -101px;
+          height: 526px;
+        }
+        #sub-dropdown-menu3{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: #fff;
+          margin-left: 218px;
+          margin-top: -162px;
+          height: 526px;
+        }
+        #sub-dropdown-menu4{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: #fff;
+          margin-left: 218px;
+          margin-top: -219px;
+          height: 526px;
+        }
+        #sub-dropdown-menu2-1{
+          display: none;
+          position: absolute;
+          background-color: #f3f3f6;
+          margin-left: 100%;
+          margin-top: -137px;
+          height: 526px;
+        }
+        #sub-dropdown-menu2-2{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: #fff;
+          margin-left: 218px;
+          margin-top: -95px;
+          height: 526px;
+        }
+        #sub-dropdown-menu2-3{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: #fff;
+          margin-left: 218px;
+          margin-top: -142px;
+          height: 526px;
+        }
+        #sub-dropdown-menu2-4{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: #fff;
+          margin-left: 218px;
+          margin-top: -189px;
+          height: 526px;
+        }
+        #sub-dropdown-menu2-5{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: #fff;
+          margin-left: 218px;
+          margin-top: -236px;
+          height: 526px;
+        }
+        #sub-dropdown-menu3-1{
+          display: none;
+          position: absolute;
+          background-color: #f3f3f6;
+          margin-left: 100%;
+          margin-top: -184px;
+          height: 526px;
+        }
+        #sub-dropdown-menu3-2{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: #fff;
+          margin-left: 218px;
+          margin-top: -95px;
+          height: 526px;
+        }
+        #sub-dropdown-menu3-3{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: #fff;
+          margin-left: 218px;
+          margin-top: -142px;
+          height: 526px;
+        }
+        #sub-dropdown-menu4-1{
+          display: none;
+          position: absolute;
+          background-color: #f3f3f6;
+          margin-left: 100%;
+          margin-top: -231px;
+          height: 526px;
+        }
+        #sub-dropdown-menu4-2{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: rgb(187, 64, 64);
+          margin-left: 218px;
+          margin-top: -95px;
+          height: 526px;
+        }
+        #sub-dropdown-menu5-1{
+          display: none;
+          position: absolute;
+          background-color: #131314;
+          margin-left: 100%;
+          margin-top: -259px;
+          height: 526px;
+        }
+        #sub-dropdown-menu5-2{
+          display: none !important;
+          position: absolute;
+          width: 646px !important;
+          background: rgb(26, 25, 25);
+          margin-left: 218px;
+          margin-top: -95px;
+          height: 526px;
+        }
+        .bg-purple{
+          background-color: #005BA4;
+        }
+        .sub-text ul li {
+          display: inline;
+          padding: 4px 10px;
+          font-size: 11px;
+          line-height: 30px;
+        }
+        .sub-text ul {margin-left: -33px;}      
+        .sub-text h2 {
+            font-size: 25px;
+        }
+        .grade-img.img-right1 img {
+          position: absolute;
+          right: 14%;
+          bottom: 0;
+          width: 42%;
+          height: 68%;
+        }
+        
+        #sub-dropdown-menu a, .hover-dropdown-menu a{
+          color: #000 !important;
+          font-size: 16px !important;
+        }
+        .hover-dropdown:hover .hover-dropdown-menu {
+          display: block;
+          transition: all 0.5s ease-out;
+        }
+        .hover-dropdown:hover .triangle{display:block}
+        .hover-dropdown:hover #sub-dropdown-menu1{display:block}
+        .hover-dropdown:hover #sub-dropdown-menu2{display:block !important}
+        .hover-dropdown:hover #sub-dropdown-menu2-2{display:block !important}
+        .hover-dropdown:hover #sub-dropdown-menu3-2{display:block !important}
+        .hover-dropdown:hover #sub-dropdown-menu4-2{display:block !important}
+        .hover-dropdown:hover #sub-dropdown-menu5-2{display:block !important}
+        .hover-dropdown .hover-dropdown-menu a:hover{background-color: #c9c7c7;}
+        #sub-dropdown1:hover #sub-dropdown-menu1{display:block;width: 250px !important;}
+        #sub-dropdown2:hover #sub-dropdown-menu2{display: block !important;}
+        #sub-dropdown3:hover #sub-dropdown-menu2{display: none !important;}
+        #sub-dropdown3:hover #sub-dropdown-menu3{display: block !important;}
+        #sub-dropdown4:hover #sub-dropdown-menu3{display: none !important;}
+        #sub-dropdown4:hover #sub-dropdown-menu4{display: block !important;}
+        #sub-dropdown2-1:hover #sub-dropdown1{display:none !important;}
+        #sub-dropdown2-1:hover #sub-dropdown-menu2{display:none !important;}
+        #sub-dropdown2-1:hover #sub-dropdown-menu2-1{display:block;width: 250px !important;}
+        #sub-dropdown2-2:hover #sub-dropdown-menu2-2{display:block !important;}
+        #sub-dropdown2-3:hover #sub-dropdown-menu2-2{display: none !important;}
+        #sub-dropdown2-4:hover #sub-dropdown-menu2-3{display: none !important;}
+        #sub-dropdown2-3:hover #sub-dropdown-menu2-3{display:block !important;}
+        #sub-dropdown2-4:hover #sub-dropdown-menu2-4{display:block !important;}
+        #sub-dropdown2-5:hover #sub-dropdown-menu2-5{display:block !important;}
+        #sub-dropdown3-1:hover #sub-dropdown1{display:none !important;}
+        #sub-dropdown3-1:hover #sub-dropdown-menu2{display:none !important;}
+        #sub-dropdown3-1:hover #sub-dropdown-menu3-1{display:block;width: 250px !important;}
+        #sub-dropdown3-2:hover #sub-dropdown-menu3-2{display:block !important;}
+        #sub-dropdown3-3:hover #sub-dropdown-menu3-3{display:block !important;}
+        #sub-dropdown4-1:hover #sub-dropdown1{display:none !important;}
+        #sub-dropdown4-1:hover #sub-dropdown-menu2{display:none !important;}
+        #sub-dropdown4-1:hover #sub-dropdown-menu4-1{display:block;width: 250px !important;}
+        #sub-dropdown4-2:hover #sub-dropdown-menu4-2{display:block !important;}
+        #sub-dropdown5-1:hover #sub-dropdown1{display:none !important;}
+        #sub-dropdown5-1:hover #sub-dropdown-menu2{display:none !important;}
+        #sub-dropdown5-1:hover #sub-dropdown-menu5-1{display:block;width: 250px !important;}
+        #sub-dropdown5-2:hover #sub-dropdown-menu5-2{display:block !important;}
+        .hover-dropdown ul.sub-dropdown-menu1 li a:hover {
+          background-color: #fff !important ;
+        }
+        .hover-dropdown ul.sub-dropdown-menu2-1 li a:hover {
+          background-color: #fff !important ;
+        }
+        .hover-dropdown ul.sub-dropdown-menu3-1 li a:hover {
+          background-color: #fff !important ;
+        }
+        .hover-dropdown ul.sub-dropdown-menu4-1 li a:hover {
+          background-color: #fff !important ;
+        }
+        .hover-dropdown ul.sub-dropdown-menu5-1 li a:hover {
+          background-color: #fff !important ;
+        }
+          .math-content {
+            padding: 20px;
+        }
+      .math-content h2 {font-size: 24px;margin-top: 18px;font-weight: 700;}
+      .math-content span {
+          background: #793985;
+          padding: 4px 19px;
+          border-radius: 5px;
+          color: #fff;
+          font-size: 12px;
+      }
+      .math-live-img-right img {
+        float: right;
+        margin-top: -190px;
+        margin-right: 120px;
+      }
+      /* .sub-dropdown-menu2 .math-live-img-right img {
+        float: right;
+        margin-top: -215px;
+        margin-right: 122px;
+      } */
+
+      i.fa.fa-angle-right {
+        color: #85858D;
+        float: right;
+        margin: 16px 7px 0 0px;
+      }
+      /*...................................
+         3. Home css
+         ................................... */
+      .home {
+        background-image: linear-gradient(90deg,#005ba4 0,#024173);
+        width: 100%;
+        position: relative;
+        /* background-image: url(../images/mediaBg.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative; */
+      }
+      /* .home::before{
+        background-image: url(../images/mediaBg.svg);
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        content: "";
+        background-size: cover;
+        background-repeat: no-repeat;
+      } */
+      .home-left h1 {
+          font-size: 48px;
+          color: #fff !important;
+          font-weight: 700;
+          line-height: 49px;
+      }
+      .home-left {
+        padding-top: 100px;
+        text-align: justify !important;
+      }
+      .home-right {
+        padding-top: 140px;
+        padding-right: 50px;
+    }
+      .home-left p {
+        font-size: 16px;
+        color: #fff;
+        line-height: 26px;
+        padding: 10px 0 10px 0;
+      }
+      .site-btn button {
+        background: #F52929;
+        border: none;
+        font-size: 16px;
+        padding: 10px 24px;
+        color: #fff;
+      }
+      .site-btn button span:hover{
+        border-bottom: 1px solid #fff;
+        color: #fff;
+      }
+      .home-right img {
+        margin-top: -6px;
+        
+      }
+    
+      /*...................................
+         4. trust css
+         ................................... */
+      /* .trust{
+        background-image: url(../images/trust_background.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      } */
+      .trust{
+        background: linear-gradient(180deg,rgba(245,243,252,0),#f5f3fc 6.5%);
+        background-repeat: repeat-x;
+        background-position: 0;
+        width: 100%;
+        position: relative;
+        padding-top: 150px;
+        }
+      .trust:before {
+        content: "";
+        width: 100%;
+        position: absolute;
+        padding-top: 5.34%;
+        background-image: url(../../us/images/wavebg.html);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        top: -1px;
+        left: 0;
+      }
+      .trust-content {
+        border-radius: 20px;
+        padding: 52px 0;
+        box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+        background: #fff;
+      }
+      .trust-left p{
+        font-size: 16px;
+
+      }
+       /*...................................
+         5. learning css
+         ................................... */
+         .learning{
+          /* background: #F5F3FC; */
+          background: linear-gradient(360deg,rgba(245,243,252,0),#f5f3fc 3.5%);
+          }
+          .bg-purple_byjus {
+            background: #F2EAF3;
+            color: #005BA4;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 14px;
+          }
+          .learning-content {
+            margin-bottom: 50px;
+        }
+          ul#pills-tab {
+            background: #fff;
+            padding: 6px 0;
+            width: 450px;
+            border-radius: 25px;
+            margin: 0 auto;
+          }
+          .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+            background-color: #005BA4;
+            border-radius: 25px;
+          }
+          .grade-item button {
+            color: #000;
+          }
+          .grade-item{
+            transition: all linear .5s;
+          }
+          .grade-item:hover{
+            background:#F5F3FC;
+            border-radius: 25px;
+            color: #000;
+          }
+          .grade-content {
+            background: #fff;
+            padding: 35px;
+            height: 454px;
+            border-radius: 15px;
+            box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+            position: relative;
+            transition: 0.5s all ease-in-out;
+            overflow: hidden;
+            margin: 20px 20px 20px 0px;
+          }
+          .grade-content:hover{
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1);
+          }
+          .grade-text ul {
+            padding-left: 0px;
+          }
+          .grade-img img{
+            position: absolute;
+            height: 283px;
+            width: 242px;
+          }
+          .grade-img-right1 img {
+            right: 0;
+            bottom: 0px;
+            border-bottom-right-radius: 10px;
+          }
+          .grade-img-right2 img {
+            right: 0;
+            bottom: 0px;
+            /* border-bottom-right-radius: 10px; */
+          }
+          .grade-text p {
+            font-size: 19px;
+          }
+          /*...................................
+         6. available-platform css
+         ................................... */
+          .available {
+            /* background: linear-gradient(0deg,rgba(255,255,255,0),#fff 15%,#fff 85%,rgba(255,255,255,0)); */
+            background:#F9F8FD;
+          }
+           /*...................................
+         7. play-learning css
+         ................................... */
+          .play-learning{
+            padding: 100px 0;
+            background-color: #F9F8FD;
+          }
+          .play-learning-left h3{
+            transition: all linear 0.5s;
+          }
+          .play-learning-left h3:hover{
+            border-bottom: 1px solid #000;
+            border-bottom: 2px solid #000;
+            width: 57%;
+          }
+          .play-learning-content{
+            transition: 0.5s all ease-in-out;
+            overflow: hidden;
+          }
+          .play-learning-content:hover{
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1);
+          }
+          /*...................................
+         8. engaging css
+         ................................... */
+         .engaging{
+          background-color: #F9F8FD;
+        }
+        .engaging-left h5 {
+          font-size: 22px;
+          transition: 0.5s all ease-in-out;
+        }
+        .engaging-left img {
+          width: 60px;
+        }
+        .engaging-left{
+          transition: 0.5s all ease-in-out;
+        }
+        .engaging-left:hover{
+          margin-top: 7px;
+        }
+        .engaging-left {
+            background: #fff;
+            width: 291px;
+            height: 167px;
+            line-height: 111px;
+            border-radius: 15px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        }
+        /*...................................
+         9. students-counting css
+         ................................... */
+        .student-text {
+          padding: 31px 31px 56px 31px;
+          background-color: #fff;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          height: 310px;
+        }     
+        .students-counting-content {
+            margin: 4px;
+        }
+        
+        .student-img img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            height: 172px;
+        }
+        span.previ-arrow-student i {
+          position: absolute;
+          top: 41%;
+          background: #fff;
+          height: 40px;
+          width: 40px;
+          left: 1%;
+          border-radius: 50%;
+          line-height: 40px;
+          text-align: center;
+          box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+          z-index: 1;
+        }
+        .next-arrow-student i {
+            position: absolute;
+            top: 37%;
+            background: #fff;
+            height: 40px;
+            width: 40px;
+            right: 1%;
+            border-radius: 50%;
+            line-height: 40px;
+            text-align: center;
+            box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+            z-index: 1;
+        }
+        /* .slick-dots li{
+          margin: 0 0.25rem;
+          background: #fff;
+          border-radius: 50%;
+        }
+        .slick-dots button{
+          display: block;
+          width: 16px;
+          height: 16px;
+          padding: 0;
+          border: none;
+          border-radius: 50%;
+        } */
+        .slick-dots li button:before {
+          font-size: 47px;
+        }
+        .slick-dots li.slick-active button:before {
+          opacity: .75;
+          color: #005BA4;
+        }
+        .slick-dots li.slick-active button{
+          padding: 10px 15px;
+        }
+/*...................................
+         10. eduction css
+         ................................... */
+        .eduction-text span {
+          font-size: 28px;
+          line-height: 36px;
+          font-weight: 600;
+        }
+        .eduction-img2 {
+          margin-top: 87px;
+        }
+      
+        .eduction-img2 img {
+            width: 50%;
+        }
+        .education-item ul.slick-dots {
+          text-align: start;
+          margin-bottom: 10px;
+        }
+        button.knowMoreBtn {
+          background: #F52929;
+          color: #fff;
+          border: none;
+          padding: 8px 30px;
+          border-radius: 8px;
+        }
+        
+        /*...................................
+         11. investors css
+         ................................... */
+        .investors-content {
+          padding: 20px 40px;
+          /* width: 347px !important; */
+          border-radius: 10px;
+          margin: 10px;
+          height: 435px;
+        }
+        .investors-text h4 {
+          font-size: 15px;
+          line-height: 24px;
+        }
+        .investors-item span.previ-arrow-student i{
+          left: -4%;
+        }
+        .investors-item span.next-arrow-student i{
+          right: -4%;
+        }
+        /*...................................
+         11. byjus-item css
+         ................................... */
+         .byjus-news{
+          background-image: url(../images/mediaBg.svg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          padding-top: 32px;
+         }
+        .trust-content.byjus-news-content {
+          padding: 25px 0;
+        }
+        .byjus-item span.previ-arrow-student i{
+          left: -2%;
+        }
+        .byjus-item span.next-arrow-student i{
+          right: -2%;
+        }
+        /*...................................
+         11. brands css
+         ................................... */
+        .brands {
+          background: #005aa3;
+        }
+        .brand-logo img {
+          margin-top: -51px;
+        }
+      
+        .brand-logo {
+            display: flex;
+            justify-content: center;
+        }
+        .brand-item {
+          padding: 0 43px 50px 43px;
+        }
+        /*about content*/
+       
+        .left-side {
+          float: left;
+          width: 25%;
+          padding: 1%;
+        }
+        .msg img {
+          max-width: 100%;
+        }
+        /*...................................
+         12. footer css
+         ................................... */
+         .footer {
+          color: white;
+          background-color: black;
+          padding: 50px 0;
+          font-size: 14px;
+        }
+        .links ul li a {
+          margin-right: 22px;
+          color: white;
+        }
+        
+        .links ul {
+            margin-left: -30px;
+            margin-top: 21px !important;
+        }
+        
+        .socail-link ul li a {
+            margin-right: 5px;
+            text-decoration: none; 
+            margin: 2px 2px; 
+            text-align: center; 
+            font-size: 15px; 
+            padding: 10px; 
+            width: 40px; 
+        }
+        
+        .socail-link ul {
+            margin-left: -33px;
+            margin-top: 13px;
+            
+        }
+        
+        .footer-content {
+            border-bottom: 1px solid black;
+        }
+        .app-icon img {
+          background: #205783;
+          padding: 4px 8px;
+          border-radius: 7px;
+      }
+      
+           /*...................................
+         13. Math page css (math header)
+         ................................... */
+         header.math-header {
+          box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+          background: #fff;
+          height: 77px;
+          display: none;
+        }
+        .math-striky-header {
+          display: flex;
+          justify-content: space-between;
+          padding: 15px 0;
+        }
+        .modal-header {
+          border-bottom: none;
+        }
+        
+        .modal-footer {
+            border-top: none;
+        }
+        .dropdown.country-dropdown a {
+          background: #f3f3f6;
+          font-size: 16px;
+          line-height: 22px;
+          padding: 13px 15px;
+          border-radius: 10px;
+          color: #333;
+      }
+      
+      .input-number input {
+          border: none;
+          background: #f3f3f6;
+          padding: 13px 15px;
+          border-radius: 10px;
+          font-size: 16px;
+          line-height: 24px;
+          margin-left: 20px;
+      }
+      .terms-text p {
+        font-size: 14px;
+        color: #3f3f57;
+        text-align: center;
+      }
+      
+      .terms-text {
+          padding-top: 200px;
+      }
+      .continueBtn button {
+        border: none;
+        background: #f3f3f6;
+        color: #9c9cae;
+        width: 100%;
+        padding: 9px 0;
+        border-radius: 6px;
+        font-size: 18px;
+      }
+      .emailBtn {
+        margin: 0 auto;
+      }
+      .country-dropdown-menu li {
+        display: block;
+      }
+      .country-dropdown-menu li a {
+        background: none !important;
+        border-radius: 0px !important;
+        transition: all linear .5s;
+      }
+      .country-dropdown-menu li a:hover {
+        background: #DEEBFF !important;
+      }
+      .math-home-content {
+        padding: 42px 0 8px 20px;
+      }
+      .math-home-content h1 {
+        font-size: 64px;
+        line-height: 66px;
+        }
+        .math-home-content p {
+          font-size: 24px;
+          line-height: 38px;
+          color: #9c9cae;
+      }
+      .math-right {
+        background-image: url(../images/biddabd-bannerBg.png);
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 123%;
+      }
+      .feature-img {
+        margin-top: -5px;
+        }
+        
+        .feature-img ul li {
+            margin-right: 20px;
+        }
+        
+        .feature-content.d-flex {}
+        
+        .feature-content {
+            display: flex;
+            margin-top: -24px;
+        }
+        /*...................................
+         14.self css
+         ................................... */
+        .self .trust-left p{
+          color: #9c9cae;
+        }
+        .learn-img {
+          position: relative;
+      }
+      .learn-title {
+        position: absolute;
+        top: 3%;
+        left: 18%;
+      }
+      
+      .learn-title h4 {
+          font-size: 45px;
+          line-height: 60px;
+      }
+      .learn-text {
+        position: absolute;
+        top: 21% !important;
+        left: 32% !important;
+      }
+      .learn-text p {
+        line-height: 29px;
+        font-size: 18px;
+      }
+      .learn-right img {
+        width: 85%;
+        margin-bottom: 45px;
+      }
+      .learn-text-hidden{
+        display: none;
+      }
+      /*...................................
+         15.students-worldwide css
+         ................................... */
+      .students-worldwide {
+        /* background-color: #F9F8FF; */
+        background: linear-gradient(180deg,#f7f5ff,rgba(247,245,255,0)),#fff;
+      }
+      img.quote-img {
+        margin-left: -65px;
+      }
+      .students-worldwide-item span.previ-arrow-student i {
+        background-color: #005BA3;
+        color: #fff;
+        border-bottom: 2px solid #2B1874;
+      }
+        .students-worldwide-item span.next-arrow-student i {
+          background-color: #005BA3;
+          color: #fff;
+          border-bottom: 2px solid #2B1874;
+          right: -4%;
+      }
+      /*...................................
+         16.learning-journey css
+         ................................... */
+      .app-input {
+        display: flex;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        padding: 10px 0 10px 10px;
+        width: 86%;
+      }
+      .journey-dropdown li a {
+        background-color: #F3F3F6 !important;
+        color: #3F3945 !important;
+        padding: 10px 9px !important;
+        border: none !important;
+      }
+      
+      input.inputPhone {
+          border: none;
+          font-weight: 600;
+          padding-left: 22px;
+          background: transparent;
+          outline: 0;
+          box-shadow:none;
+      }
+    
+      button.sendBtn {
+        margin-left: -78px;
+      }
+      .journey-right {
+        margin-top: -217px;
+      }
+      .math-journey-content {
+        background-color: #efebff;
+        border-radius: 20px;
+        height: 347px;
+        margin: 0 50px;
+    }
+    .math-journey-left {
+      padding-top: 77px;
+      
+    }
+    .math-journey-right {
+      background-image:url(../images/getStartedSpiral.2081f44c.svg);
+      background-size: cover;
+      background-position: right;
+      background-repeat: no-repeat;
+      height: 347px !important;
+    }
+    .math-journey-right img {
+      width: 83%;
+      margin-top: -82px;
+      float: right;
+    }
+    /*...................................
+         17.math-footer css
+         ................................... */
+    .math-footer {
+      background: linear-gradient(180deg,#f7f5ff,rgba(247,245,255,0) 24.31%);
+    }
+    .math-footer .footer-content {
+      border-bottom: 1px solid #e6e6ec;
+      border-top: 1px solid #e6e6ec;
+      padding: 40px 0;
+      margin: 50px 0;
+    }
+    .math-footer .app-icon img {
+      background: transparent;
+    }
+    /*...................................
+         18.future page css future home
+         ................................... */
+         .future-home{
+          background-image: url(../images/61ee2a3d66a294024aab03a6_BG.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          height:100vh;
+          font-family: "Chapeau", sans-serif;
+          position: relative;
+        }
+         .future-art{
+          background-image: url(../images/future_art_inclusions1.svg);
+          background-size: content;
+          background-position: center;
+          background-repeat: no-repeat;
+          height:100vh;
+          font-family: "Chapeau", sans-serif;
+          position: relative;
+        }
+        .art-content {
+          position: absolute;
+          /* top: 41% !important; */
+          left: 32%;
+          margin-top: 13%;
+        }
+        .child-grade-content{
+          display: flex;
+          justify-content: space-between;
+        }
+        .future-home-content{
+
+        }
+        .future-home-content h2 {
+          font-size: 30px;
+          line-height: 33.35px;
+        }
+        .future-home-content p {
+          font-size: 13px;
+          line-height: 18.5px;
+        }
+      .future-home-right {
+        background: #fff;
+        padding: 30px 30px 45px;
+        border-radius: 15px;
+        width: 394px;
+        height: 446px;
+      }
+      .future-home-right h6{
+        font-size: 18px;
+        line-height: 19.5px;
+      }
+      .future-home-right h5 {
+        font-size: 10px;
+        line-height: 9.2px;
+        color: #6A6A86;
+        font-weight: 600;
+      }
+      .child-grade-text {
+        height: 3vw;
+        border-radius: 0.44vw;
+        background-color: #f7f5ff;
+        padding: 18px 25px;
+        margin: 8px;
+        text-align: center;
+      }
+      .child-grade-text p {
+        font-size: 9px;
+        line-height: 0.5px;
+      }
+      p.paragraph-54 {
+        font-size: 10px;
+        line-height: 13.7px;
+        color: #6A6A86;
+      }
+      .future-home-right .trialBtn {
+        width: 100%;
+        background: #F52929;
+        border-bottom: 2px solid #A72547;
+        transition: all linear .5s;
+      }
+      .future-home-right .trialBtn:hover {
+        width: 100%;
+        background: #F52929;
+        transform: scale(1.1);
+      }
+      img.future-girl-img {
+        width: 88%;
+        position: relative;
+      }
+      
+      img.youtube-icon {
+          position: absolute;
+          top: 35%;
+          left: 37%;
+          width: 17%;
+      }
+      .future-math .trialBtn {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+        background: #F52929;
+      }
+      .future-math .trialBtn:hover{
+        border-bottom: 4px solid #a30303;
+        background: #F52929;
+        margin-bottom: 4px;
+      }
+      /*...................................
+         20.math-action css
+         ................................... */
+      .math-action{
+        background-image: url(../images/61ee2a3d66a294c1e0ab03af_Group.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        font-family: "Chapeau", sans-serif;
+      }
+      .math-action-left {
+        position: relative;
+      }
+      .math-action-left video {
+        width: 67%;
+        position: absolute;
+        left: 27%;
+        top: 4%;
+        border-radius: 23px;
+        height: 374px;
+        }
+        
+      .math-action-left img {
+        width: 71%;
+        margin-left: 25%;
+      }
+      .accordion-icon {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 4px 0 0;
+      }
+    
+    .accordion.dropdown {
+        background: #fff;
+        padding: 5px 15px;
+        margin: 10px;
+        width: 76%;
+        border-bottom: 2px solid #FFED8A;
+    }
+    /*...................................
+         21.future math app css
+         ................................... */
+    .app-img {
+      text-align: center;
+    }
+    
+    .app-img img {
+        width: 18%;
+        height: 60px;
+        /* padding-bottom: 11px; */
+    }
+    .students-counter .trialBtn {
+      width: 60%;
+      margin: 0 auto;
+      display: block;
+      background: #F52929;
+    }
+    .students-counter .trialBtn:hover{
+      border-bottom: 4px solid #a30303;
+      background: #F52929;
+      margin-bottom: 4px;
+    }
+    /*...................................
+         22.students counter css
+         ................................... */
+    .counter-item {
+      display: flex;
+      padding: 10px;
+    }
+    
+    .counter-item img {
+        width: 17%;
+        margin-right: 5px;
+    }
+    
+    .counter-item h4 {
+        font-size: 21px;
+        margin-top: 10px;
+    }
+    
+    .counter-content {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 16px;
+        margin: 65px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    /*...................................
+         23.parents-choose css
+         ................................... */
+         .parents-choose{
+          background-image:url(../images/winners.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          /* height: 100vh; */
+        }
+        .parents-card {
+          display: flex;
+          justify-content: center;
+          
+        }
+        
+        .qutation-img{
+          background-image: url(../images/qutation.svg);
+          background-size: cover;
+          background-position: top;
+          background-repeat: no-repeat;
+          margin-top: -20px;
+        }
+        .qutation-img h5 {
+          font-size: 21px;
+          line-height: 24.5px;
+          }
+            .card-content {
+              width: 240px;
+              border-radius: 17px;
+              transition: all linear .5s;                                   
+          }
+          .card-content:hover{
+            transform:scale(1.1);
+          }
+        .card-footer.parents-card-footer {
+            border: none;
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+        }
+        .parents-item {
+          display: flex;
+          display: none;
+        }
+        .parents-card-img {
+          display: flex;
+        }
+      
+      .parents-card-img small {
+          font-size: 17px;
+          margin-top: 21px;
+          margin-left: 10px;
+      }
+      .card.parents-card-content {
+          width: 100%;
+          border: none;
+          border-radius: 15px;
+          height: 200px;
+      }
+      
+      .card-title.parents-card-title {
+          display: flex;
+          justify-content: space-around;
+          padding: 18px;
+      }
+      .global-container{
+        background-image:url(../images/loginMath.98a2f4c0.png);
+        background-size: cover;
+        height:100%;
+        display: flex;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        background-color: #ebe8e8;
+      }
+      
+      form{
+        padding-top: 10px;
+        font-size: 14px;
+        margin-top: 30px;
+      }
+      
+      .card-title{ font-weight:300;
+      
+      }
+      
+      .btn{
+        font-size: 14px;
+        margin-top:20px;
+      }
+      
+      
+      .login-form{ 
+        width:330px;
+        margin:20px;
+      }
+      
+      .sign-up{
+        text-align:center;
+        padding:20px 0 0;
+        color: #000;
+      }
+      
+      .alert{
+        margin-bottom:-30px;
+        font-size: 13px;
+        margin-top:20px;
+      }
+    /*...................................
+         24.curriculum css
+         ................................... */
+         .grade-block {
+          background-color: #FFFCF7;
+          padding: 9px 0;
+          display: flex;
+          justify-content: space-around;
+          }
+         .music-grade-block {
+          background-color: #FFEBE5;
+          padding: 9px 0;
+          display: flex;
+          justify-content: space-around;
+          }
+          
+          .music-grade-block a {
+              margin-right: 0px;
+              padding: 11px 90px !important;
+              transition: all linear .5s;
+          }
+          .grade-block a {
+              margin-right: 0px;
+              padding: 11px 14px;
+              transition: all linear .5s;
+          }
+          .grade-block a:last-child{
+            margin-right: 0px;
+          }
+          a.active-grade {
+            background-color: #F8D829;
+            padding: 11px 14px;
+          }
+          .grade-block a:hover{
+            background-color: #F8D829;
+          }
+          .grade-block1 a {
+            padding: 11px 14px;
+            margin-right: 0px;
+          }
+          a.active-grade1 {
+            background-color: #36C6DA;
+            padding: 11px 14px !important;
+            color: #fff;
+          }
+          .grade-block1 a:hover{
+            background-color: #36C6DA;
+            color: #fff;
+          }
+          .grade-block2 a {
+            padding: 9px 32px;
+            margin-right: 0px;
+          }
+          a.active-grade2 {
+            background-color: #EC5928;
+            padding: 9px 52px !important;
+            color: #fff;
+          }
+          .grade-block2 a:hover{
+            background-color: #EC5928;
+            color: #fff;
+          }
+          a.music-active-grade {
+            background-color: #EC5928;
+            padding: 11px 90px;
+            color: #fff;
+          }
+          .music-grade-block a:hover{
+            background-color: #EC5928;
+            color: #fff;
+          }
+          .single-curriculum {
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px 22px;
+            text-align: justify;
+            height: 100%;
+        }
+        
+        .single-curriculum h4 {
+            font-size: 22px;
+            line-height: 27.4px;
+        }
+        
+        .single-curriculum {
+
+        }
+        .group-learning {
+          display: flex;
+          justify-content: space-between;
+        }
+        .class-save-text {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .class-save-text p {
+            font-size: 13px;
+            line-height: 18.5px;
+            margin-left: -41px;
+        }
+        
+        .class-save-text span {
+            color: #005AA2;
+            text-transform: uppercase;
+            font-size: 13px;
+            line-height: 17.7px;
+        }
+        
+        .curriculum-text h4 {
+            font-size: 17px;
+            line-height: 18.3px;
+        }
+        
+        .curriculum-text p {
+            font-size: 11px;
+            line-height: 13.37px;
+            color: #3F3F86;
+        }
+        
+        .view-details p {
+            color: #005BA3;
+            font-size: 12px;
+            line-height: 15.3px;
+            border-bottom: 1px solid #E6E6EC;
+        }
+        
+        .single-curriculum a.btn.trialBtn {
+            background-color: #F60707;
+            width: 100%;
+        }
+        
+        .achievement {
+            display: flex;
+            justify-content: start;
+        }
+        
+        .achievement h5 {
+            font-size: 15px;
+            line-height: 18.13px;
+            margin: 5px;
+        }
+        
+        .badge-block {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .badge img {width: 44%;}
+        .badge p {
+          font-size: 10px;
+          line-height: 14.7px;
+          margin-top: 9px;
+      }
+      /*...................................
+         25.parents-choose css
+         ................................... */
+         .frequently{
+          background-image:url(../images/frequently_bg.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          /* height: 100vh; */
+        }
+        .frequently-item .accordion.dropdown {
+            border-bottom: 1px solid #E7E0FF;
+            width: 100%;
+            background: transparent;
+        }
+        .frequently-item .accordition.dropdown .collapse.show {
+          box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+          padding: 20px;
+          border-radius: 15px;
+        }
+        /*...................................
+         26.live-courses css
+         ................................... */
+        .live-courses-item {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+        }
+        
+        .single-live-courses {
+            border: 1px solid #F3F3F6;
+            margin: 12px;
+            padding: 25px;
+            border-radius: 15px;
+            transition: all linear .5s;
+        }
+       
+        /*---------------------
+  Map
+-----------------------*/
+
+.map {
+	height: 500px;
+	position: relative;
+}
+
+.map iframe {
+	width: 100%;
+}
+
+.map .map-inside {
+	position: absolute;
+	left: 50%;
+	top: 160px;
+	-webkit-transform: translateX(-175px);
+	-ms-transform: translateX(-175px);
+	transform: translateX(-175px);
+}
+
+.map .map-inside i {
+	font-size: 48px;
+	color: #2123a5;
+	position: absolute;
+	bottom: -75px;
+	left: 50%;
+	-webkit-transform: translateX(-18px);
+	-ms-transform: translateX(-18px);
+	transform: translateX(-18px);
+}
+
+.map .map-inside .inside-widget {
+	width: 350px;
+	background: #ffffff;
+	text-align: center;
+	padding: 23px 0;
+	position: relative;
+	z-index: 1;
+	-webkit-box-shadow: 0 0 20px 5px rgba(12, 7, 26, 0.15);
+	box-shadow: 0 0 20px 5px rgba(12, 7, 26, 0.15);
+}
+
+.map .map-inside .inside-widget:after {
+	position: absolute;
+	left: 50%;
+	bottom: -30px;
+	-webkit-transform: translateX(-6px);
+	-ms-transform: translateX(-6px);
+	transform: translateX(-6px);
+	border: 12px solid transparent;
+	border-top: 30px solid #ffffff;
+	content: "";
+	z-index: -1;
+}
+
+.map .map-inside .inside-widget h4 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #1c1c1c;
+	margin-bottom: 4px;
+}
+
+.map .map-inside .inside-widget ul li {
+	list-style: none;
+	font-size: 16px;
+	color: #666666;
+	line-height: 26px;
+}
+        /* img.small_code_planet:hover{
+          display: none;
+      } */
+        .small_code_planet img:hover .large_code_planet img{
+          display: block;
+        }
+        .large_code_planet img{
+          width: 185px;
+          display: none;
+        }
+        .large_music_planet img{
+          width: 185px;
+          display: none;
+        }
+        .single-live-courses:hover{
+          transform: scale(1.1);
+          border: 1px solid #F3F3F6;
+        }
+        a.exploreBtn.trialBtn {
+          display: none;
+      }
+        .single-live-courses:hover, a.exploreBtn.trialBtn{
+          display: block;
+        }
+    /*...................................
+         27.future math footer css
+         ................................... */
+    .future-math-footer{
+      background-image:url(../images/future-math-bg.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 50vh;
+      position: relative;
+    }
+    .start-learning {
+      background-image: url(../images/group-footer.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 335px;
+      position: absolute;
+      width: 65%;
+      top: -30%;
+      left: 18%;
+    }
+    .footer-item {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 88px;
+    }
+    .all-links ul {
+      margin-left: -32px;
+      }
+    .all-links ul li {
+        display: block;
+        color: #fff;
+        font-size: 13px;
+        line-height: 20.5px;
+    }
+    .socail-links {
+      border-bottom: 1px solid #454545;
+  }
+    /*...................................
+         28.signin page css
+         ................................... */
+    .signin{
+      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .signin-content {
+      display: flex;
+      justify-content: center;
+    }
+    .signin-form {
+      width: 420px;
+      padding: 20px;
+    }
+    .signin-logo img {
+        width: 115px;
+        margin-left: 80px;
+    }
+    .signin-form h6 {
+      font-size: 14px;
+    }
+    .input-data {
+      width: 100%;
+      height: 56px;
+      margin: 0 20px;
+      position: relative;
+      padding: 0 20px 0 0;
+  }
+  
+  .input-data input
+  {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(0,0,0, 0.12);
+  }
+  .input-data input:focus ~ label, 
+  .input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #1A91A9;
+  }
+  
+  .input-data label{
+    position: absolute;
+    pointer-events: none;
+    bottom: 10px;
+    font-size: 12px;
+    transition: all 0.3s ease;
+    color: #929292;
+  }
+  
+  .input-data .underline{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #1A91A9;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+  .input-data input:focus ~ .underline:before,
+  .input-data input:valid ~ .underline:before
+  {
+    transform: scale(1);
+  }
+  .forgot_btn button {
+    color: #ff8619;
+    font-size: 11px;
+    float: right;
+    margin-right: 23px;
+    transition: all linear .5s;
+  }
+  .forgot_btn button:hover{
+    color: #ff8619;
+  }
+  button.login {
+    background-color: #FF8619;
+    width: 100%;
+    color: #fff;
+    padding: 11px 0;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    transition: all linear .5s;
+  }
+  button.login:hover{
+    color: #fff;
+  }
+  button.login_pin {
+    background: transparent;
+    width: 100%;
+    color: #FF8619;
+    padding: 11px 0;
+    border: 1px solid #FF8619;
+    transition: all linear .5s;
+  }
+  button.login_pin:hover{
+    background: #FF8100;
+    color: #fff;
+  }
+  .jss264 {
+    width: 90px;
+    border: solid 1px #e3e3e3;
+    height: 1px;
+  }
+  img.logo {
+    width: 100px;
+  }
+  .signInBtn {
+    background: #EFEBFF;
+    padding: 10px 30px;
+    border-bottom: 1px solid #D7CCFF;
+    color: #005BA3;
+    font-size: 14px;
+    border-radius: 7px;
+    border: none;
+    transition: all linear .5s;
+  }
+  .signInBtn:hover{
+    border-bottom: 2px solid #D7CCFF;
+    background: #EFEBFF;
+    margin-bottom: 4px;
+  }
+  
+   /*...................................
+         29.free trial page css
+         ................................... */
+  .trialBtn {
+    background: #005BA3;
+    padding: 10px 30px;
+    border-bottom: 1px solid #160066;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 7px;
+    border: none;
+    transition: all linear .5s;
+  }
+  .trialBtn:hover{
+    border-bottom: 2px solid #160066;
+    background: #005BA3;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+
+  .input-form {
+    font-family: "Convergence", sans-serif;
+    display: grid;
+    font-size: 1.2rem;
+  }
+  .form {
+    position: relative;
+    width: 20rem;
+    height: 3rem;
+  }
+   input.form__input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px solid #C4C4C4;
+      color: white;
+      outline: none;
+      padding: 20px 188px;
+      background: none;
+    }
+      :hover {
+        border-color: #adffff;
+      }
+  
+      /* Change border when input focus*/
+  
+      :focus {
+        border-color: #18ffff;
+      }
+
+   label.form__label {
+      position: absolute;
+      left: 1rem;
+      top: 0.8rem;
+      padding: 0 0.5rem;
+      color: #9797A7;
+      cursor: text;
+      font-size: 14px;
+      transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+      background-color: #fff;
+    }
+  
+  .form__input:focus ~ .form__label,
+  .form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+    top: -0.5rem;
+    font-size: 0.8rem;
+    left: 0.8rem;
+  }
+
+  button.classBtn {
+    height: 55px;
+    margin-right: 5px;
+    transition: all linear .5s;
+  }
+  button.classBtn:hover{
+    background: #FB7A27;
+    color: #fff;
+    border: none;
+  }
+  .login_btn {
+    width: 100%;
+  }
+  /*...................................
+         30.future code page css
+         ................................... */
+    .partnership-item {
+      display: flex;
+      justify-content: center;
+    }
+
+    .partnership-left {
+      display: flex !important;
+      box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+      margin:26px 17px;
+      padding: 8px 20px;
+      border-radius: 15px;
+    }
+    span.previ-arrow-parents i {
+      display: none;
+    }
+    
+    span.next-arrow-parents i {
+        display: none;
+    }
+    .music-partnership-img img {
+      width: 200px;
+      height: 138px;
+  }
+  
+  .music-partnership-left {
+      display: flex !important;
+      justify-content: space-around;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      /* width: 560px !important;  */
+      padding: 20px;
+      margin: 20px 42px;
+      border-radius: 15px;
+  }
+      /* responsive part media query  */
+        /* Small devices (landscape phones, 576px and up) */
+        @media (max-width: 576px) { 
+          .virtual-text a p{
+            /* display: block; */
+          }
+          .home-content{
+           display: flex;
+           flex-flow: column-reverse;
+          }
+          .home-left {
+           padding-bottom: 20px;
+           text-align: justify !important;
+         }
+         .trust-left-content{
+           justify-content: space-around;
+         }
+         .grade-img img {
+           position: absolute;
+           height: 283px;
+           width: 194px;
+         }
+         .available-content{
+           display: flex;
+           flex-flow: column-reverse;
+          }
+          .available-platform .title {
+           text-align: center;
+         }
+         .platform-img1 img {
+           width: 100% !important;
+         }
+          .platform-img2 {
+           padding: 150px 50px 20px 50px;
+           }
+           .grade-text p {
+             font-size: 14px;
+         }
+         .play-learning-item{
+           display: flex;
+           flex-flow: column-reverse;
+          }
+          .next-arrow-student i {         
+           top: 36%;         
+           right: -2%;
+          }
+          .previ-arrow-student i {                 
+           left: -2%;
+          }
+          .investors-content {
+           /* padding: 20px 40px; */
+           /* width: 347px !important; */
+           border-radius: 10px;
+           margin: 10px;
+           height: 435px;
+         }
+         .byjus-news-right img {
+           width: 89%;
+         }
+         .math-home-content h1 {
+          font-size: 36px;
+          line-height: 36px;
+          text-align: center;
+        }
+        .math-home-content p {
+          text-align: center;
+          font-size: 16px;
+          line-height: 20px;
+        }
+        
+        .start-modal {
+            text-align: center;
+        }
+        .feature-content {
+          display: block;
+          text-align: center;
+          margin-top: 10px;
+        }
+        .learn-text-display{
+          display:none;
+        }
+        .learn-text-hidden{
+          display: block;
+          text-align: center;
+        }
+        .math-fun .title {
+          text-align: center;
+        }
+        .learn-hidden-img {
+          display: inline-flex;
+        }
+        .learn-right img {
+          width: 100%;
+        }
+        .students-worldwide .title h2{
+          font-size: 30px !important;
+        }
+        .students-worldwide-content{
+          text-align: center;
+        }
+        img.quote-img {
+          margin-left: 0px !important;
+        }
+        .students-worldwide-item span.next-arrow-student i {
+          right: -22px !important;
+          top: 39%;
+        }
+        .learning-journey-content .title {
+          text-align: center;
+        }
+        .journey-item{
+          display: flex;
+           flex-flow: column-reverse;
+        }
+        .journey-right {
+          margin-top: -36px !important;
+        }
+        .journey-left-img {
+          margin-left: 98px;
+        }
+        .app-description {
+          display: none;
+        }
+        .math-journey-content{
+          height: 100vh;
+        }
+        .math-journey-left .title h2{
+          font-size: 28px !important;
+        }
+        .math-journey-right {
+          height: 311px !important;
+        }      
+        .math-journey-right img {
+          margin-top: -56px;
+          float: none;
+        }
+        .math-footer .copy-text {
+          text-align: left !important;
+        }
+        img.future-girl-img {
+          width: 100%;
+          position: relative;
+        }
+        img.youtube-icon {
+          top: 39%;
+          left: 42%;
+        }
+        .future-home-right {
+          margin: 0 auto;
+        }
+       
+        .future-math .title {
+          margin-top: 100% !important;
+        }
+        .math-action-left img {
+          /* width: 100%; */
+          /* margin-left: 55px; */
+          margin: 0 auto;
+          display: block;
+        }
+        .math-action-left{
+          position: relative;
+        }
+        .math-action-left video {
+          width: 100% !important;
+          position: absolute;
+          left: 0% !important;
+          top: 4% !important;
+          border-radius: 20px !important;
+          height: 340px !important;
+      }
+        .accordion.dropdown {
+          /* width: 100%; */
+          margin: 0 auto;
+      }
+      .counter-item {
+        justify-content: center;
+      }
+      .counter-item img {
+        width: 12%;
+      }
+      
+      .counter-item h4 {
+          margin-top: 24px;
+      }
+      .qutation-img h5 {
+        font-size: 13px;
+        line-height: 24.5px;
+        }
+        .row.curriculum-items {
+          display: flex;
+        }
+        .start-learning .title {
+          margin-top: 30% !important;
+      }
+      
+      .start-learning .title h2 {
+          font-size: 20px !important;
+          line-height: 25px !important;
+      }
+      
+      .start-learning .title p {
+          font-size: 12px !important;
+      }
+      
+      .start-learning .trialBtn {
+          font-size: 11px;
+      }
+      .future-art {
+        margin-top: 455px;
+      }
+      
+      .art-content {
+          margin-top: 22% !important;
+          left: 15% !important;
+      }
+         }
+         @media (max-width: 414px) { 
+           .grade-img img {
+             position: absolute;
+             height: 169px;
+             width: 87px;
+           }
+           ul#pills-tab {
+             width: 355px;
+             font-size: 12px;
+           }
+           .platform-img1 img {
+             width: 100% !important;
+           }
+           .student-text {
+             width: 307px;
+           }
+           .next-arrow-student i {
+             top: 36%;
+             right: 14% !important;
+           }
+           .investors-item span.next-arrow-student i {
+             right: -4% !important;
+           }
+           .byjus-item span.previ-arrow-student i {
+             left: -4% !important;
+           }
+           .byjus-item span.next-arrow-student i {
+             right: -6% !important;
+             top: 38%;
+           }
+           .math-right {
+            width: 181%;
+          }
+          .students-worldwide-item span.next-arrow-student i {
+            right: -22px !important;
+            top: 39%;
+          }
+          .journey-right {
+            margin-top: -44px !important;
+          }
+          .journey-left-img {
+            display: flex;
+            margin-left: 9px;
+          }
+          .math-journey-left .title h2{
+            font-size: 22px !important;
+          }
+          .math-journey-content{
+            height: 100vh;
+          }
+          .math-journey-right {
+            height: 232px !important;
+          }      
+          .math-journey-right img {
+            margin-top: -10px;
+            float: none;
+          }
+          .future-math .title {
+            margin-top: 36% !important;
+          }
+          .math-action-left video {
+            width: 65% !important;
+            position: absolute;
+            left: 18% !important;
+            top: -12% !important;
+            border-radius: 20px !important;
+            height: 340px;
+          }
+          .parents-cards{
+            display: none;
+          }
+          .parents-items{
+            display: block;
+          }
+          .footer-item {
+            display: block;
+          }
+          .partnership-left {
+            margin: 0 14px;
+            padding: 8px 13px;
+          }
+          .start-learning {
+            display: none;
+          }
+          .future-logo{
+            margin-top: 18% !important;
+            margin-left: 0px !important;
+          }
+          .all-links ul {
+            margin-left: -66px;
+          }
+          .all-links h4 {
+            font-size: 16px !important;
+            margin-left: -35px;
+          }
+        /* .partnership-text h3 {
+            font-size: 15px;
+        } */
+           }
+           @media (max-width: 480px) {
+            .parents-cards{
+              display: none;
+            }
+            .parents-items{
+              display: block;
+            }
+            span.next-arrow-parents.slick-arrow {
+              display: none !important;
+            }
+            
+            span.previ-arrow-parents.slick-arrow {
+                display: none;
+            }
+            span.next-arrow-parents.slick-arrow.slick-disabled {
+                display: none !important;
+            }
+           }
+           @media (max-width: 400px) {
+            .math-action-left video {
+              width: 64% !important;
+              position: absolute;
+              left: 18% !important;
+              top: -22% !important;
+              border-radius: 20px !important;
+              height: 340px;
+            }
+            .parents-cards{
+              display: none;
+            }
+            .parents-items{
+              display: block;
+            }
+           }
+         /* Medium devices (tablets, 768px and up) */
+         @media (max-width: 768px) { 
+          .virtual-text a p{
+            /* display: block; */
+          }
+          .home-content{
+           display: flex;
+           flex-flow: column-reverse;
+          }
+          .home-left {
+           padding-bottom: 20px;
+           text-align: center !important;
+           padding-top: -20px;
+         }
+          .home-right img {
+           margin-left: 5%;
+         }
+         .trust-left-content{
+           justify-content: space-around;
+         }
+         .available-content{
+           display: flex;
+           flex-flow: column-reverse;
+          }
+          .available-platform .title {
+           text-align: center;
+           padding-top: 24px !important;
+           }
+           .platform-img1 img{
+             width: 100% !important;
+           }
+           .platform-img2 img{
+             width: 100% !important;
+           }
+          .platform-img2 {
+           padding: 150px 50px 20px 50px;
+           }
+           .play-learning-item{
+             display: flex;
+             flex-flow: column-reverse;
+            }
+            .play-learning-right img {
+             padding: 0px 9px 0 38px;
+             width: 85%;
+           }
+           .previ-arrow-student i {                 
+             left: -1% !important;
+            }
+           .next-arrow-student i {         
+             top: 36%;         
+             right: -2%;
+            }
+            .math-right {
+              width: 181%;
+            }
+            
+            .math-home-content h1 {
+                font-size: 45px;
+            }
+            
+            .math-home-content p {
+                font-size: 18px;
+            }
+            .learn-text {
+              top: 22% !important;
+              left: 50% !important;
+            }
+          
+            .learn-text p {
+                line-height: 19px;
+                font-size: 16px;
+            }
+            
+            .learn-title {
+                top: -15%;
+                left: 30% !important;
+            }
+            
+            .learn-text-display {
+                margin-top: -48px;
+            }
+            .app-input {
+              width: 150%;
+            }
+            img.quote-img {
+              margin-left: -39px;
+            }
+          .journey-right {
+            margin-top: -134px;
+            }
+            .math-journey-left .title h2{
+              font-size: 28px !important;
+            }
+            .math-journey-right img {
+              width: 100%;
+            }
+            .math-footer .app-icon {
+              display: flex;
+            }
+            img.future-girl-img {
+              width: 100% !important;
+              position: relative;
+              margin-top: 56px;
+          }
+            img.youtube-icon {
+              top: 39%;
+              left: 42%;
+            }
+            .future-home-right {
+              width: 100%;
+          }
+          .math-action-left{
+            position: relative;
+          }
+          .math-action-left video {
+            top: -28%;
+            width: 68%;
+            left: 28%;
+            border-radius: 31px !important;
+            position: absolute;
+            height: 286px;
+          }
+          .counter-content {
+            margin: -11px;
+          }
+          
+          .counter-item img {
+              width: 20%;
+          }
+          .counter-item h4 {
+            font-size: 17px;
+          }
+          .class-save-text p {
+            font-size: 13px;
+            line-height: 18.5px;
+            margin-left: 0px;
+            margin-right: 3px;
+            }
+            .art-content {
+              margin-top: 16% !important;
+              left: 21%;
+          }
+          }
+          @media (max-width: 820px) {
+            .counter-item h4 {
+              font-size: 13px;
+              margin-top: 10px;
+          }
+          }
+
+
+         /* Large devices (desktops, 992px and up) */
+         @media (max-width: 992px) { 
+          /* .summer-banner-content{
+            display: none;
+          }
+          .summer-banner-content-hidden{
+            display:block;
+          }
+          .hidden-content.group-img img {
+            margin: 25px 65px 0 23px;
+          } 
+          .banner-logo img {
+            width: 48%;
+            margin-left: 14%;
+            margin-bottom: 10px;
+            }
+          .banner-item.claim-offer a p{
+            margin: -17px 0 0 -71px;
+          }
+          .banner-item.claim-offer img{
+            margin-top: -62%;
+            margin-left: 9%;
+          } */
+          .logo-img {
+            /* display: none; */
+          }
+          .textImg a img{
+            /* display: none; */
+          }
+          .virtual-text a p {
+            background: #6DC776;
+            text-align: center;
+            color: #fff;
+            /* display: block; */
+          }
+          .banner-item.claim-offer{
+            /* display: none; */
+          }
+          .summer-banner-content {
+            justify-content: center;
+         }
+         .home-content{
+           display: flex;
+           flex-flow: column-reverse;
+           align-items: center;
+         }
+         .home-left {
+           padding-bottom: 20px;
+           text-align: center !important;
+         }
+        .trust-left-content{
+           justify-content: space-around;
+         }
+         .math-right {
+          width: 181%;
+        }
+        .learn-title {
+          left: 22%;
+        }
+        
+        .learn-text {
+            top: 29%;
+            left: 39%;
+        }
+        .app-input {
+          width: 105%;
+        }
+        .math-action-left video {
+          top: -8%;
+          width: 61%;
+          left: 29%;
+          border-radius: 31px !important;
+        }
+        .counter-item img {
+          width: 17%;
+          margin-right: 5px;
+        }
+        .counter-item h4 {
+          font-size: 13px;
+          margin-top: 10px;
+        }
+        .class-save-text p {
+          margin-left: -13px;
+        }
+        .art-content {
+          margin-top: 14%;
+      }
+          }
+       /* responsive css  */
+         /* X-Large devices (large desktops, 1200px and up) */
+         @media (min-width: 1024px) { 
+           .trust{
+             background-image: url(../images/bidda-trust.png);
+             background-position: bottom;
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-color: #F5F3FC;
+           }
+           .trust-left-content{
+             justify-content: space-around;
+           }
+           .learning{
+             background: #F5F3FC;
+             background: linear-gradient(1deg,rgba(245,243,252,0),#f5f3fc 3.5%);
+             }
+           .available-platform {
+             background: linear-gradient(271deg,rgba(255,255,255,0),#fff 15%,#fff 85%,rgba(255,255,255,0));
+             /* background:#F9F8FD; */
+           }
+           
+           
+          }
+         /* X-Large devices (large desktops, 1200px and up) */
+         @media (min-width: 1200px) {  }
+       
+         /* XX-Large devices (larger desktops, 1400px and up) */
+         @media (min-width: 1400px) {  }
+       
+         
+      
